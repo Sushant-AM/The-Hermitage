@@ -1,0 +1,28 @@
+//font families
+/*
+ *font-family: 'Old Standard TT', serif;
+ *font-family: 'Open Sans', sans-serif;
+ *font-family: 'Lora', serif;
+*/
+$default-font: 'Open Sans', sans-serif !default;
+$custom-font: 'Old Standard TT', serif !default;
+$nav-font: 'Lora', serif !default;
+
+//default colors
+$placeholder-color: #555 !default;
+$main-color:#bba72c !default;
+$secondary-color:#013a55 !default;
+$body-text-color: #666 !default;
+$error-msg-color:#d00 !default;
+$container_width: 1180px !default;
+
+$normal-font-size: 15px !default;
+$normal-line-height: 1.4 !default;
+
+//media query mixins
+$crt-monitor: 1279px;
+$ipad: 959px;
+$tab: 979px;
+$phone-landscape: 599px;
+$phone-portrait: 479px;
+$phone-small: 360px;

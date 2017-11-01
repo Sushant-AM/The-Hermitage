@@ -1,0 +1,56 @@
+.btn{
+    color: #fff;
+    line-height: 1;
+    padding: 15px 25px;
+    display: inline-block;
+    background-color: $main-color;
+    border: 0 none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: $default-font;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    @include transition(all linear 0.3s);
+    vertical-align: top;
+    &:hover,&:focus{
+        background-color: $secondary-color;
+        color: #fff;
+    }
+    &--blue{
+        background-color: $secondary-color;
+        &:hover,&:focus{
+            background-color: $main-color;
+        }
+    }
+    &--big{
+        font-size: 16px;
+        padding: 22px 35px 25px;
+        letter-spacing: 3px;
+        @media (max-width:$phone-portrait){
+            font-size: 15px;
+            padding: 12px 20px 15px;
+        }
+    }
+    & + &{
+        margin-left: 5px;
+    }
+}
+.btn-ountline{
+    border: 1px solid $main-color;
+    color: $main-color;
+    line-height: 1;
+    padding: 22px 35px 25px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: $default-font;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    @include transition(all linear 0.3s);
+    &:hover{
+        background-color: $main-color;
+        color: #fff;
+    }
+}
